@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .debug-color {
+    background-color: theme("colors.green.200");
+  }
+}
+
 @media (max-width: 768px) {
   main {
     grid-template-columns: 1fr;
